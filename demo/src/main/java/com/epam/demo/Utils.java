@@ -3,7 +3,7 @@ package com.epam.demo;
 import java.util.List;
 
 public class Utils {
-    public static boolean areAllPositiveNumbers(List<String> args) {
+    public static boolean isAllPositiveNumbers(List<String> args) {
         for (String arg : args) {
             try {
                 double num = Double.parseDouble(arg);
